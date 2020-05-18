@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin: 0;
+  font-family: 'Pacifico';
+  color: grey;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 4.0rem;
+}
+h2{
+  font-family: 'Merriweather Sans';
+  color: grey;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 2.5rem;
+}
+p{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+}
+
+ /* Header */
+.header-container{
+  background-color: #333333;
+  height: 520px;
+  width: 100%;
+}
+.profPic{
+  border-radius: 100%;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  height: 27%;
+  transform: translate(-50%);
+}
+.cloud{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 520px;
+  background: url(../images/cloud_realistic.png);
+  animation: animate 120s linear infinite;
+}
+@keyframes animate{
+  from{
+    background-position: 0px;
+  }
+  to{
+    background-position: 5440px;
+  }
+}
+
+/* Top container */
+.top-container{
+  background-color: #ffffff;
+  height: 400px;
+  width: 100%;
+  font-family: 'Merriweather Sans';
+}
+.title-top-container{
+  color: grey;
+  font-family: 'Merriweather Sans';
+  font-size: 2.5rem;
+  position: absolute;
+  top : 57%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.text-top-container{
+  font-family: 'Merriweather Sans';
+  position: relative;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  /* left: 50%;
+  transform: translate(-50%); */
+}
+.image-computer{
+  border-radius: 100%;
+  position: absolute;
+  top: 73%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  transform: translate(-50%);
+  height: 30%;
+}
+
+/* Middle container */
+.middle-container{
+  background-color: #e1f4f3;
+  height: 400px;
+  width: 100%;
+}
+.title-middle-container{
+  font-family: 'Merriweather Sans';
+  color: grey;
+  font-size: 2.75em;
+  position: absolute;
+  top : 112%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.text-middle-container{
+  font-family: 'Merriweather Sans';
+  position: absolute;
+  margin-top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.image-robot{
+  border-radius: 100%;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  height: 50%;
+  width: 15%;
+}
+
+/* Bottom container */
+.bottom-container{
+  background-color: #706c61;
+  height: 300px;
+  width: 100%;
+}
+.copyright{
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
